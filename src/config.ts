@@ -1,29 +1,29 @@
 export default {
   // 网站标题
-  Title: '韩小韩博客',
+  Title: 'Tuuleac Blog',
   // 网站地址
-  Site: 'https://www.vvhan.com',
+  Site: 'https://hink.de5.net/',
   // 网站副标题
-  Subtitle: '不曾与你分享的时间,我在进步.',
+  Subtitle: '黑闪的博客.',
   // 网站描述
-  Description: '韩小韩博客 专注于前开发与相关技术的实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享作者的生活、音乐和旅行的热爱。',
+  Description: '黑闪Tuuleac的Astro博客，分享开发与建站的实战经验。',
   // 网站作者
-  Author: '.𝙃𝙖𝙣',
+  Author: '黑闪Tuuleac',
   // 作者头像
-  Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
+  Avatar: 'https://saas.chatbot.cn/download/minio/standard/2025-12-14/cab49735a0304273881d76ff874a56d6.png',
   // 网站座右铭
-  Motto: '运气是计划之外的东西.',
+  Motto: '看万山红遍，层林尽染；漫江碧透，百舸争流。',
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站侧边栏公告 (不填写即不开启)
-  Tips: '<p>欢迎光临我的博客 🎉</p><p>这里会分享我的日常和学习中的收集、整理及总结，希望能对你有所帮助:) 💖</p>',
+  Tips: '<p>欢迎光临我的博客 🎉</p><p>这里会分享我的日常和学习中的收集、整理及总结，希望能对你有所帮助</p>',
   // 首页打字机文案列表
   TypeWriteList: [
     '不曾与你分享的时间,我在进步.',
     "I am making progress in the time I haven't shared with you.",
   ],
   // 网站创建时间
-  CreateTime: '2021-09-01',
+  CreateTime: '2025-12-14',
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,
@@ -58,17 +58,12 @@ export default {
     { text: '昔日', link: '/archives', icon: 'Nav_archives' },
     { text: '留言', link: '/message', icon: 'Nav_message' },
     { text: '关于', link: '/about', icon: 'Nav_about' },
-    { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: 'Nav_link' },
   ],
   // 侧边栏个人网站
   WebSites: [
     // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG
-    { text: 'Github', link: 'https://github.com/uxiaohan', icon: 'WebSite_github' },
-    { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
-    { text: '每日热榜', link: 'https://hot.vvhan.com', icon: 'WebSite_hot' },
-    { text: '骤雨重山图床', link: 'https://wp-cdn.4ce.cn', icon: 'WebSite_img' },
-    { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: 'WebSite_analytics' },
+    { text: 'Github', link: 'https://github.com/teac9', icon: 'WebSite_github' },
   ],
   // 侧边栏展示
   AsideShow: {
@@ -101,7 +96,7 @@ export default {
     },
     // Waline 评论
     Waline: {
-      enable: false,
+      enable: true,
       serverURL: ''
     }
   },
@@ -118,9 +113,9 @@ export default {
   // 文章内赞赏码
   Reward: {
     // 支付宝收款码
-    AliPay: '/assets/images/alipay.webp',
+    AliPay: '',
     // 微信收款码
-    WeChat: '/assets/images/wechat.webp'
+    WeChat: 'https://cdn.jsdelivr.net.cn/gh/xxloli/tc/yyf1usppcm.jpeg'
   },
   // 访问网页 自动推送到搜索引擎
   SeoPush: {
